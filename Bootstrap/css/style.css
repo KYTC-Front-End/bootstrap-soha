@@ -1,0 +1,122 @@
+:root{
+    --body-bg: #19283F ;
+    --navColor: #ffffff;
+    --activeColor: #2B9E71;
+    --btnColoe :#FF3150;
+    --yellow-color:#FFC41A;
+   --blueColor: #33D1CC;
+}
+
+/*  navbar section */
+.navbar{
+    background-color: var(--body-bg);
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: var(--navColor);
+}
+
+.navbar .navbar-nav .nav-item .nav-link:active,
+.navbar .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-nav .nav-item .nav-link:focus{
+    color: var(--activeColor);
+}
+
+.navbar .search{
+    border-left: 1px solid var(--activeColor);
+}
+
+.btn{
+    background-color:var(--btnColoe);
+    color: var(--yellow-color);
+}
+
+.btn:hover{
+    background-color:var(--btnColoe);
+    color: var(--yellow-color);
+}
+
+/*  hero section */
+.landing {
+    background-color: var(--body-bg);
+    min-height: calc(100vh - 70px);
+  }
+
+
+  /*  featuer section */
+  .main-title::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--blueColor);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.row{
+    margin-top: 20px;
+}
+
+ .icon-holder {
+    height: 200px;
+ }
+  .icon-holder svg{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .icon-holder .number {
+    font-size: 12rem;
+    color: #EFF7FA;
+  }
+  .icon-holder .icon {
+    color: var(--blueColor);
+  }
+  
+
+  .card-body .card-title{
+    color: var(--yellow-color);
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
